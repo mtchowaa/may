@@ -1,0 +1,155 @@
+/*My color: #fda1a2*/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAf6f6;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+hr {
+  border-style: none;
+  border-top: 6px dotted #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/***********CLASS SELECTOR*************/
+.top-container {
+  background-color: #e1f8f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.stem {
+  text-decoration: underline;
+}
+
+.middle-container {
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.pp {
+  height: 300px;
+  border-radius: 100%;
+  margin: 50px auto 0 auto;
+}
+
+.intro {
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.skillimg1 {
+  margin: 0;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillimg2 {
+  margin: 0;
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  box-shadow: 0 0 0 2px #66bfbf;
+  background-color: #66bfbf;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 12px 37px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.ask {
+  width: 40%;
+  margin: 0 auto 30px auto;
+}
